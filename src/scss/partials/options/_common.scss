@@ -1,0 +1,34 @@
+/*=============== Common ====================================================================================================================================================================*/
+
+.ibg img {
+    display: none;
+}
+
+.page-wrapper {
+    position: relative;
+    &__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        .image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: center/cover no-repeat;
+        }
+        .light {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 100%;
+            background: center/cover no-repeat;
+            @media (max-width: $break_480) {
+                width: 80%;
+            }
+        }
+    }
+}
+
+/*=============== /Common ====================================================================================================================================================================*/

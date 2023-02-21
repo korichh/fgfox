@@ -1,0 +1,397 @@
+/*=============== Hero ====================================================================================================================================================================*/
+
+.hero {
+  width: 100%;
+  height: 900px;
+  margin-top: -60px;
+}
+
+.hero-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-inner {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-inner .shadow-top {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: top/100% 40% repeat-x;
+}
+
+.hero-inner .shadow-bottom {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: bottom/100% 58% repeat-x;
+}
+
+.hero-inner > .firefly {
+  position: absolute;
+  z-index: 8;
+  top: 24%;
+  right: 12%;
+}
+
+.hero-inner > .firefly img {
+  width: 45px;
+}
+
+.hero-inner__title {
+  padding: 0 15px;
+  position: absolute;
+  top: 9%;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-inner__title .title1 img {
+  max-width: 100%;
+}
+
+.hero-inner__title .title2 img {
+  max-width: 68%;
+}
+
+.hero-inner__main {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-inner__main .main-shadow {
+  z-index: 1;
+  position: absolute;
+}
+
+.hero-inner__main .main {
+  z-index: 4;
+  position: absolute;
+}
+
+.hero-inner__main .main img {
+  max-width: 100%;
+}
+
+.hero-inner__main .circle-left-top {
+  z-index: 3;
+  position: absolute;
+  top: 11%;
+  left: 2%;
+}
+
+.hero-inner__main .circle-left-top .firefly {
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.hero-inner__main .circle-left-top .firefly img {
+  -webkit-transform: scaleX(-1) rotate(18deg);
+  -ms-transform: scaleX(-1) rotate(18deg);
+  transform: scaleX(-1) rotate(18deg);
+  width: 70px;
+}
+
+.hero-inner__main .circle-left-top .circle-text {
+  left: 15%;
+}
+
+.hero-inner__main .circle-right-middle {
+  z-index: 6;
+  position: absolute;
+  top: 44%;
+  right: -3%;
+}
+
+.hero-inner__main .circle-right-middle .firefly {
+  position: absolute;
+  top: -45px;
+}
+
+.hero-inner__main .circle-right-middle .firefly img {
+  width: 95px;
+}
+
+.hero-inner__main .circle-right-middle .circle-text {
+  top: 20%;
+  left: 4%;
+}
+
+.hero-inner__main .circle-left-bottom {
+  z-index: 7;
+  position: absolute;
+  bottom: -10%;
+  left: 15%;
+}
+
+.hero-inner__main .circle-left-bottom .firefly {
+  position: absolute;
+  top: -60px;
+}
+
+.hero-inner__main .circle-left-bottom .firefly img {
+  width: 120px;
+  -webkit-transform: scaleX(-1) rotate(11deg);
+  -ms-transform: scaleX(-1) rotate(11deg);
+  transform: scaleX(-1) rotate(11deg);
+}
+
+.hero-inner__main .circle-inner {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-inner__main .circle {
+  position: absolute;
+}
+
+.hero-inner__main .circle img {
+  width: 100%;
+}
+
+.hero-inner__main .circle-shadow {
+  position: absolute;
+  width: 200px;
+}
+
+.hero-inner__main .circle-shadow img {
+  width: 100%;
+}
+
+.hero-inner__main .circle-text {
+  position: absolute;
+  width: 100%;
+}
+
+.hero-inner__main .circle-text img {
+  width: 100%;
+}
+
+/*=============== /Hero ====================================================================================================================================================================*/
+
+/*=============== Hello ====================================================================================================================================================================*/
+
+.hello {
+  margin-bottom: 45px;
+}
+
+.hello-wrapper {
+  position: relative;
+}
+
+.hello-bg {
+  z-index: -1;
+}
+
+.hello-bg .shadow-top {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: top/100% 40% repeat-x;
+}
+
+.hello-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.block {
+  background: rgba(58, 32, 80, 0.7);
+  border: 3px solid #b0e31b;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.block span {
+  color: #b0e31b;
+}
+
+.block h3 {
+  font-size: 25px;
+  line-height: 27px;
+  display: inline-block;
+}
+
+.block u {
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #b0e31b;
+  margin-left: 3px;
+}
+
+.block p {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.block small {
+  font-size: 15px;
+}
+
+.block__button {
+  margin-top: 10px;
+}
+
+.block__button a {
+  text-transform: uppercase;
+  display: inline-block;
+  background: #b0e31b;
+  -webkit-box-shadow: 0px 4px 4px rgba(203, 196, 196, 0.1);
+  box-shadow: 0px 4px 4px rgba(203, 196, 196, 0.1);
+  border-radius: 20px;
+  max-width: 162px;
+  width: 100%;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #383e4b;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  -o-transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+}
+
+.block__button a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.block__button a:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.hello-block {
+  padding: 30px;
+}
+
+/*=============== /Hello ====================================================================================================================================================================*/
+
+/*=============== Items ====================================================================================================================================================================*/
+
+/*=============== /Items ====================================================================================================================================================================*/
+
+@media (max-width: 767.98px) {
+  .hero-inner > .firefly {
+    right: 8%;
+  }
+}
+
+@media (max-width: 499.98px) {
+  .hello-block {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .hero {
+    height: 850px;
+  }
+
+  .hero-inner__main .circle-left-top {
+    top: 14%;
+    left: 2%;
+  }
+
+  .hero-inner__main .circle-left-bottom {
+    bottom: -8%;
+    left: 12%;
+  }
+
+  .hero-inner__main .circle-left-bottom .firefly img {
+    width: 100px;
+  }
+
+  .hero-inner__main .circle-inner {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .hero {
+    height: 750px;
+  }
+
+  .hero-inner__title {
+    top: 11%;
+  }
+
+  .hero-inner__main .circle-left-top {
+    top: 20%;
+  }
+
+  .hero-inner__main .circle-left-bottom {
+    bottom: 0%;
+  }
+
+  .hero-inner__main .circle-inner {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 359.98px) {
+  .hero {
+    height: 650px;
+  }
+
+  .hero-inner__main .circle-left-top {
+    top: 21%;
+  }
+
+  .hello-block {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

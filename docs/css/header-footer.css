@@ -52,5 +52,78 @@
 
 /*=============== Footer ====================================================================================================================================================================*/
 
+.footer-wrapper {
+  position: relative;
+}
+
+.footer-bg .shadow-bottom {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: bottom/100% 100% repeat-x;
+}
+
+.footer-inner {
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.footer-inner__text {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer-inner__text p {
+  padding: 10px 0;
+}
+
+.footer-inner .firefly-bottom {
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  left: -10px;
+  bottom: -10px;
+}
+
+.footer-inner .firefly-bottom img {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+  opacity: 0.7;
+  width: 130px;
+}
+
+.footer-links {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-links__item:not(:last-child):after {
+  content: "|";
+  color: #fff;
+}
+
+.footer-links__item a {
+  padding: 0 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
 /*=============== /Footer ====================================================================================================================================================================*/
 /*# sourceMappingURL=header-footer.css.map */

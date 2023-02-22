@@ -17,6 +17,7 @@
         img {   
             width: 66px;
         }
+        animation: firefly 1.5s 0s ease-in-out infinite alternate;
     }
     .firefly-bottom {
         pointer-events: none;
@@ -28,6 +29,7 @@
             width: 44px;
             transform: scaleX(-1);
         }
+        animation: firefly 1.4s 0.1s ease-in-out infinite alternate;
     }
 }
 .items-inner {

@@ -87,6 +87,8 @@
   z-index: 0;
   left: -10px;
   bottom: -10px;
+  -webkit-animation: firefly 1.2s 0s ease-in-out infinite alternate;
+  animation: firefly 1.2s 0s ease-in-out infinite alternate;
 }
 
 .footer-inner .firefly-bottom img {
